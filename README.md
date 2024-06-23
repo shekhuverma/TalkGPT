@@ -45,6 +45,10 @@ Was not able to think any other cool name :D
     ```bash
     python cli.py
     ```
+3. Optionally you can set pre-commit hooks using
+   ```
+   pre-commit install
+   ```
 
 ## Testing
 All the tests are done using Pytest.
