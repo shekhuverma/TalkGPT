@@ -13,6 +13,12 @@ load_dotenv()
 DEEPGRAM_KEY = os.getenv("DEEPGRAM_KEY")
 OPEN_AI_KEY = os.getenv("OPEN_AI_KEY")
 
+if DEEPGRAM_KEY is None or OPEN_AI_KEY is None:
+    print("Please set the environment variables before continuing")
+    print("Add variables in template.env and rename it to .env")
+    exit(0)
+
+
 ip_stream = PyAudioInputStream(sample_rate=22050, chunk_size=2048)
 
 op_stream = PyAudioOutputStream(sample_rate=22050, chunk_size=2048)
