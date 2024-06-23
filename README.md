@@ -2,17 +2,14 @@
 Was not able to think any other cool name :D
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
+- [TalkGPT](#talkgpt)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
   - [Testing](#testing)
-  - [Database Migrations](#database-migrations)
-- [Project Structure](#project-structure)
-- [Implementation Details](#implementation-details)
-  - [Configurations](#configurations)
-  - [Schema](#schema)
-  - [License Key Generation](#license-key-generation)
-- [To-Do](#to-do)
-- [License](#license)
+  - [Rough Implementation Idea](#rough-implementation-idea)
+  - [Assumptions Made](#assumptions-made)
+  - [Scope for Improvements/ Known issues](#scope-for-improvements-known-issues)
 
 ## Installation
 
